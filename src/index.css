@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #007BFF;
+  --color-secondary: #FF5733;
+  --color-background: #F8F9FA;
+  --color-text-primary: #343A40;
+  --color-text-secondary: #6C757D;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+/* Add smooth transitions to interactive elements */
+a, button {
+  transition: all 0.3s ease;
+}
